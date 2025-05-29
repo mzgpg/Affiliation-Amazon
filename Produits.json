@@ -1,0 +1,32 @@
+[
+    {
+        "nom": "Chaise empilable moderne",
+        "description": "Idéale pour les petits espaces, facile à ranger.",
+        "image": "https://example.com/chaise.jpg",
+        "lien": "https://www.amazon.fr/chaise-affilie"
+    },
+    {
+        "nom": "Purificateur d'air HEPA",
+        "description": "Élimine 99,97% des particules fines pour un air pur.",
+        "image": "https://example.com/purificateur.jpg",
+        "lien": "https://www.amazon.fr/purificateur-affilie"
+    },
+    {
+        "nom": "Écouteurs sans fil étanches",
+        "description": "Parfaits pour le sport, résistants à l'eau.",
+        "image": "https://example.com/ecouteurs.jpg",
+        "lien": "https://www.amazon.fr/ecouteurs-affilie"
+    },
+    {
+        "nom": "Montre connectée santé",
+        "description": "Suivi de la santé, notifications intelligentes.",
+        "image": "https://example.com/montre.jpg",
+        "lien": "https://www.amazon.fr/montre-affilie"
+    },
+    {
+        "nom": "Filtre liquide pour le visage",
+        "description": "Apporte éclat et hydratation à la peau.",
+        "image": "https://example.com/filtre.jpg",
+        "lien": "https://www.amazon.fr/filtre-affilie"
+    }
+]
