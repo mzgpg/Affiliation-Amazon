@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Produits Tendance 2025</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Les Produits Tendance de 2025</h1>
+        <p>Découvrez les articles les plus recherchés cette année.</p>
+    </header>
+    <main id="produits-container">
+        <!-- Les produits seront chargés ici -->
+    </main>
+    <footer>
+        <p>&copy; 2025 - Mon Site d'Affiliation</p>
+    </footer>
+
+    <script>
+        fetch('produits.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('produits-container');
+                data.forEach(produit => {
+                    container.innerHTML += `
+                        <div class="produit">
+                            <img src="${produit.image}" alt="${produit.nom}">
+                            <h3>${produit.nom}</h3>
+                            <p>${produit.description}</p>
+                            <a href="${produit.lien}" target="_blank">Voir sur Amazon</a>
+                        </div>
+                    `;
+                });
+            });
+    </script>
+</body>
+</html>
